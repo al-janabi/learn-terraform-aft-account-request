@@ -10,7 +10,7 @@ module "bu" { #Create a new module resource for every new account you want to pr
     AccountEmail              = "ajanabi+wkload@amazon.com" #Account email must be unique and you should be able to verify account through email, Usage :- user+accountname@domain
     AccountName               = "bu" # Account Name
     ManagedOrganizationalUnit = "Development (ou-mmqs-zqd4pxiy)" #f you are using nested OUs, include the OU ID in parentheses, such as Sandbox (ou-44...)
-    SSOUserEmail              = "ajanabi+essent@amazon.com.com" #Account email must be unique and you should be able to verify through email id specfied
+    SSOUserEmail              = "ajanabi+essent@amazon.com" #Account email must be unique and you should be able to verify through email id specfied
     SSOUserFirstName          = "Ali" #You can specify user first name 
     SSOUserLastName           = "Al-Janabi" #You can specify user last name 
   }
